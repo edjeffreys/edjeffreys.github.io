@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+body {background-color: #000000};
+
+.wrapper {
+    padding: 60px;
+    line-height: 30px;
+
+}
+
+
+.type {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    width:600px;
+    color: #ffffff;
+
+
+}
+
+.links {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    width:600px;
+    color: #ffffff;
+    text-decoration: none;
+
+
+
+}
+
+.links2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    width:600px;
+    color: #ffffff;
+    text-decoration: none;
+
+
+
+}
+.links3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    width:600px;
+    color: #ffffff;
+    text-decoration: none;
+
+
+
+}
+a {
+    text-decoration:none;
+}
+
+
+
+
+.links a p.new-label span{
+    position: relative;
+    content: 'Work'
+}
+.links:hover a p.new-label span{
+    display: none;
+}
+.links:hover a p.new-label:after{
+    content: 'LinkedIn';
+    color: #0077b5;
+}
+
+.links2 a p.new-label2 span{
+    position: relative;
+    content: 'Play'
+}
+.links2:hover a p.new-label2 span{
+    display: none;
+}
+.links2:hover a p.new-label2:after{
+    content: 'GitHub';
+    color: #b947ff;
+}
+
+.links3 a p.newlabel3 span{
+    position: relative;
+    content: 'Contact'
+}
+.links3:hover a p.newlabel3 span{
+    display: none;
+}
+.links3:hover a p.newlabel3:after{
+    content: 'Email';
+    color: #c60017;
+}
